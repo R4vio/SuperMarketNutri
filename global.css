@@ -1,0 +1,46 @@
+html,
+body {
+	position: relative;
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: grid;
+	place-items: center;
+	background: linear-gradient(to top, rgb(181, 175, 255), rgb(255, 184, 221));
+	background-size: cover;
+}
+
+table {
+	padding: 1em;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 4px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	box-shadow: 10px 10px 15px rgba(13, 0, 129, 0.055);
+}
+th {
+	padding: 0 1em;
+	font-size: 1em;
+}
+
+td {
+	font-size: 1em;
+}
+td,
+th {
+	border: solid 1px #00000018;
+	padding: 0.2em 0.8em;
+	border-radius: 2px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.header-cells th.active-state {
+	background-color: rgb(185, 255, 249);
+}
